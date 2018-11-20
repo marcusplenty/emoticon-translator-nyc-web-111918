@@ -1,7 +1,8 @@
 require 'yaml'
 
 def load_library(arg)
-  
+  hash = YAML.load_file(arg)
+  return hash
 end
 
 def get_japanese_emoticon
