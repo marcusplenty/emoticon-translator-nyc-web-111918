@@ -2,6 +2,7 @@ require 'yaml'
 
 def load_library(arg)
   hash = YAML.load_file(arg)
+  binding.pry
   return hash
 end
 
