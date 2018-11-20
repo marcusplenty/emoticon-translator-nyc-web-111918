@@ -2,8 +2,6 @@ require 'yaml'
 
 def load_library(arg)
   hash = YAML.load_file(arg)
-  hash[get_meaning] = ""
-  hash[get_emoticon] = ""
   return hash
 end
 
